@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="Stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h2 id="h22">Portfolio</h2>
+        <div class="navi">
+            <nav>
+                <ul>
+                    <li class="li1"><a href="#Home">Home</a></li>
+                    <li class="li2"><a href="#Education">Education</a></li>
+                    <li class="li3"><a href="#Skills">Skills</a></li>
+                    <li class="li4"><a href="#Projects">Projects</a></li>
+                    <li class="li5"><a href="#Contact">Contact</a></li>
+                </ul>                
+            </nav>
+        </div>
+    </header>
+
+    <div id="Home" class="c1" >
+        <h2>Hello! It's me</h2>
+        <h1 id="name">Chandana Annadi</h1>
+        <h2>A frontend Developer and learner</h2>
+    </div>
+    <br><br><br>
+    <h1 id="Education">
+        Education
+    </h1>
+    <br>
+    <div class="info">
+        <div class="i1">
+            <div class="school">
+                <div class="image-container" onclick="toggleSchool()">
+                    <h1>Schooling</h1>
+                </div>
+                <div class="school-details">
+                    <h2>School Name: Siddartha E/M High School, Karimnagar</h2>
+                    <h2>Grade: 10 GPA</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="i2">
+            <div class="inter">
+                <div class="image-container" onclick="toggleInter()">
+                    <h1>Intermediate</h1>
+                </div>
+                <div class="inter-details">
+                    <h2>College Name: Narayana Junior College, Bachupally</h2>
+                    <h2>Percentage: 98.6%</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="i3">
+            <div class="tech">
+                <div class="image-container" onclick="toggleTech()">
+                    <h1>Under-Graduate</h1>
+                </div>
+                <div class="ug-details">
+                    <h2>University Name: Jawaharlal Nehru Technological University, Hyderabad</h2>
+                    <h2>CGPA: 8.975</h2>
+                </div>
+            </div>
+        </div>        
+    </div><br><br>
+    <div id="Skills" class="skills">
+        <h1>Skills</h1>
+    </div><br><br>
+    <div class="box">
+        <div class="s1">
+            <img src="html.jpg" class="img">
+            <h1>HTML</h1>
+        </div>
+        <div class="s2" >
+            <img src="css.png" class="img1">
+            <h1>CSS</h1>
+        </div>
+        <div class="s3">
+            <img src="js.jpeg" class="img2">
+            <h1>JavaScript</h1>
+        </div>
+        <div class="s4">
+            <img src="py.jpg" class="img3">
+            <h1>Python</h1>
+        </div>
+        <div class="s5">
+            <img src="django.jpeg" class="img4">
+            <h1>Django</h1>
+        </div>
+        <div class="s6">
+            <img src="sqll.jpeg" class="img5">
+            <h1>MySQL</h1>
+        </div>
+    </div><br>
+    <div id="Projects" class="p1">
+        <h1>projects</h1>
+    </div><br><br>
+    <div class="p">
+        <div class="pro">
+            <div class="p2">
+                <h2>Project Name:Weather App</h2>
+                <img src="kk.jpg">
+                <div class="p3">
+                    <h3>A web Application that provides real-time weather updates for any location.Users can search for a city and get weather details.</h3>
+                </div>
+            </div>
+            <div class="p4">
+                <ul>
+                    <h3>Tools Used</h3>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>OpenWeather API</li>
+                </ul>
+            </div>
+        </div>
+        <div class="projects2">
+            <div class="p22">
+                <h2>Project Name:AI based News Summarizer</h2>
+                <img src="news.jpeg">
+                <div class="p33">
+                    <h3>A Web application that provides concise, 5-6 line summaries of any news topic requested by the user. Built using Django. If users need more details, they can access the original source via a provided link. The goal is to offer a quick, accurate, and efficient way to stay updated with the latest news. </h3>
+                </div>
+            </div>
+            <div class="p44">
+                <ul>
+                    <h3>Tools Used</h3>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Django</li>
+                    <li>API Integration</li>
+                </ul>
+            </div>
+        </div>
+    </div><br><br><br>
+    <footer>
+        <div id="Contact" class="con">
+            <div class="cont">
+                <h1>Let's Connect</h1>
+                <a onclick="window.location.href='https://www.instagram.com/chandana_annadi/profilecard/?igsh=MW1taGdkaDI4OWc5ag=='">Instagram</a>
+                <a onclick="window.location.href='https://www.linkedin.com/in/chandanaannadi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'">LinkedIn</a>
+                <a onclick="window.location.href='https://github.com/annadichandana'">GitHub</a>
+                <a onclick="window.location.href='https://leetcode.com/u/annadichandana/'">Leetcode</a>
+                <a onclick="window.location.href='mailto:annadichandana744@gmail.com'">E-mail</a>
+            </div>
+        </div>
+    </footer>
+    <script src="port.js"></script>
+</body>
+</html>
